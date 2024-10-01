@@ -11,14 +11,16 @@ const aob =
 function superArrayOfObjects(data,victim){
     obj = {};
     data.forEach((data)=>{
-     if(data.hasOwnProperty(victim)){
-            if(obj[data[victim]]){
-                 obj[data[victim]]++
-            }else{
-                obj[data[victim]] = 1
-            }
-     }
+        const val = obj[data]
+    //  if(data.hasOwnProperty(victim)){
+    //         if(obj[data[victim]]){
+    //              obj[data[victim]]++
+    //         }else{
+    //             obj[data[victim]] = 1
+    //         }
+    //  }
     })
+console.log(obj)
 
     let superArrayOfObjects = [];
     for(const key in obj){
