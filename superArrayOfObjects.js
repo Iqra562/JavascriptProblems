@@ -7,7 +7,7 @@ const aob =
     { framework: 'JavaScript', website: 'inblack67' },
 ]
 
-
+// yt
 function superArrayOfObjects(data,victim){
     obj = {};
     data.forEach((data)=>{
